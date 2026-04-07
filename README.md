@@ -60,4 +60,4 @@ Frontend: http://localhost:5173
 - Frontend: `npm run preview` in `client/`
 
 ## Deployed Project
-Check out the live version here: [Deployed Link]([https://document-summary-analyzer.vercel.app/](https://document-summary-analyzer-ruby.vercel.app/))
+Check out the live version here:https://document-summary-analyzer-ruby.vercel.app/
