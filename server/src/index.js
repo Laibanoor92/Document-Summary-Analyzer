@@ -109,7 +109,7 @@ app.post('/summarize', async (req, res) => {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) return res.status(500).json({ error: 'Missing GEMINI_API_KEY on server' });
 
-  const model = 'gemini-1.5-flash-latest'; // fast and good
+  const model = 'gemini-1.5-flash'; // fast and good
     const MAX_CHARS = 12000;
     const clean = String(text).slice(0, 800000).replace(/\s+$/g, '');
     let summary = '';
